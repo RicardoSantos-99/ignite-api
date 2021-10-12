@@ -12,9 +12,8 @@ export function createCourse (req: Request, res: Response) {
 
   CreateCourseService.execute({
     name: "ReactJS",
-    educator: "JohnLocke",
+    educator: "JohnLocke"
   })
-
 
   return res.send()
 }
